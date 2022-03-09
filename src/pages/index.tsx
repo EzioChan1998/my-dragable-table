@@ -1,11 +1,6 @@
 import * as React from 'react';
-import { Table } from 'antd';
-import styles from './index.less';
+import { Redirect } from 'umi';
 
 export default function IndexPage() {
-  return (
-    <div>
-      <Table></Table>
-    </div>
-  );
+  return <Redirect to="/home/index" />;
 }
